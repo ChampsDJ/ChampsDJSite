@@ -268,7 +268,7 @@ a { color: inherit; text-decoration: none; }
 .card-small { padding: 18px; }
 
 /* Socials row */
-.social-row { display: flex; flex-wrap: wrap; gap: 12px; }
+.social-row { display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; }
 .social-row a {
 	display: inline-flex;
 	align-items: center;
