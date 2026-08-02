@@ -22,17 +22,20 @@
 	</head>
 	<body>
 
-		<!-- Signature element: scrolling BPM / frequency ticker -->
+		<!-- TICKER -->
 		<div class="ticker" aria-hidden="true">
 			<div class="ticker-track">
 				<span> — HOUSE — TECHNO — TRANCE — DRUM &amp; BASS — OPEN FORMAT — EVENTS — WEDDINGS — PARTIES — PITTSBURGH, PA</span>
 				<span> — HOUSE — TECHNO — TRANCE — DRUM &amp; BASS — OPEN FORMAT — EVENTS — WEDDINGS — PARTIES — PITTSBURGH, PA</span>
 			</div>
 		</div>
-
+		
+		<!-- HEADER -->
 		<header class="hero">
 			<nav class="topnav">
 				<a class="brand" href="#top"></a>
+				
+				<!-- NAVBAR -->
 				<div class="navlinks">
 					<a href="#releases">Releases</a>
 					<a href="#mixes">Mixes</a>
@@ -41,22 +44,25 @@
 					<a href="#friends">Friends</a>
 				</div>
 			</nav>
-
+			
+			<!-- LOGO -->
 			<div class="hero-inner" id="top">
 				<div class="eq" aria-hidden="true">
 					<span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
 				</div>
 				<img src="images/Champs_Word_Logo.png" alt="CHAMPS LOGO">
 				
+				<!-- BIO -->
 				<p class="tagline">Champs is a multi-genre DJ &amp; producer out of Pittsburgh, PA spinning house, techno, trance, drum &amp; bass, and open-format music. He also runs Champs Entertainment, the gold standard for live event entertainment in the Pittsburgh region.</p>
 				
+				<!-- ACTIONS -->
 				<div class="hero-actions">
 					<a class="btn btn-solid" href="https://open.spotify.com/album/6dv3GM1njKBR7o0MZ7h8VG?si=yKQ5Rlh3Q_SIuil3Iyrtkw" target="_blank" rel="noopener noreferrer">Stream "Path of Totality"</a>
 					<a class="btn btn-outline" href="#book">Book Champs</a>
 				</div>
 			</div>
 		</header>
-
+		
 		<main>
 
 			<!-- RELEASES -->
@@ -129,7 +135,7 @@
 				</div>
 			</section>
 
-			<!-- BOOK ME -->
+			<!-- BOOK -->
 			<section id="book" class="section">
 				<div class="section-head">
 					<span class="eyebrow">03 / Hire</span>
@@ -223,14 +229,16 @@
 			</section>
 
 		</main>
-
+		
+		<!-- FOOTER -->
 		<footer class="site-footer">
 			<p>Reviews, Bookings &amp; Press</br>
 			<a href="https://champsentertainment.com">champsentertainment.com</a>
 			</p>
 			<p class="footer-fine">&copy; <span id="year"></span> Champs Entertainment, LLC</p>
 		</footer>
-
+		
+		<!-- SCRIPT FOR YEAR -->
 		<script>
 			document.getElementById('year').textContent = new Date().getFullYear();
 		</script>
