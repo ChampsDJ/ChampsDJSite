@@ -3,56 +3,33 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Page not found — CHAMPS</title>
+		<title>Page not found (404) - Champs</title>
 		<meta name="robots" content="noindex" />
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Oswald:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="styles.css" />
-		<style>
-			.notfound {
-				min-height: 100vh;
-				display: flex;
-				flex-direction: column;
-				align-items: center;
-				justify-content: center;
-				text-align: center;
-				padding: 24px;
-			}
-			.notfound-code {
-				font-family: 'Archivo Black', sans-serif;
-				font-size: clamp(72px, 18vw, 160px);
-				color: var(--gold);
-				margin: 0;
-				line-height: 1;
-				text-shadow: 0 0 40px rgba(216,187,27,0.25);
-			}
-			.notfound-msg {
-				font-family: 'Oswald', sans-serif;
-				color: var(--ink-dim);
-				font-size: clamp(15px, 2.2vw, 18px);
-				max-width: 420px;
-				margin: 12px 0 32px;
-			}
-		</style>
+
 	</head>
 	<body>
-
+		
+		<!-- TICKER -->
 		<div class="ticker" aria-hidden="true">
 			<div class="ticker-track">
 				<span> — TRACK SKIPPED — WRONG DECK — EMERGENCY LOOP — TRACK SKIPPED — WRONG DECK — EMERGENCY LOOP</span>
 				<span> — TRACK SKIPPED — WRONG DECK — EMERGENCY LOOP — TRACK SKIPPED — WRONG DECK — EMERGENCY LOOP</span>
 			</div>
 		</div>
-
+		
+		<!-- MAIN -->
 		<main class="notfound">
 			<div class="eq" aria-hidden="true">
 				<span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
 			</div>
+			<img src="images/Champs_Word_Logo.png" alt="CHAMPS LOGO">
 			<p class="notfound-code">404</p>
 			<p class="notfound-msg">This one didn't make the set. The page you're looking for doesn't exist.</p>
-			<a class="btn btn-solid" href="https://champsdj.com">Back to the homepage</a>
+			<a class="btn btn-solid" href="/">Back to the homepage</a>
 		</main>
-
 	</body>
 </html>
